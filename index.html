@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aha! Moment Simulator</title>
+    <script src="tracker.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 50px; text-align: center; }
+        button { padding: 15px 30px; font-size: 18px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>TTV Diagnostic Simulator</h1>
+    <p>Wait 60 seconds without clicking "Upload" to see the "Stall Nudge".</p>
+    <button onclick="TTV_Tracker.track('upload_data')">I Uploaded Data!</button>
+    <div id="status"></div>
+</body>
+</html>
